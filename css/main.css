@@ -4,48 +4,17 @@ GENERAL
 
 body {
   font-family: 'Roboto', serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-.row {
-  
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 0 5%;
-}
-
-body {
-  background-color: #fff;
-  color: #999;
-}
-
-  img {
-  max-width: 100%;
+  background-color: #f5f5f5;
+  color: #666;
 }
 
 h3 {
-  margin: 0 0 1em 0;
-}
-
-
-
-/***************
-HEADING
-***************/
-
-#header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
+  margin: 0 0 0.5em 0;
 }
 
 #logo {
   text-align: center;
-  margin: 0;
+  text-decoration: none;
 }
 
 h1 {
@@ -58,135 +27,30 @@ h1 {
   text-transform: lowercase;
 }
 
-h2 {
-  font-size: 1.2em;
-  margin: -5px 0 0;
-  font-weight: 100;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-
-
-/***************
-NAVIGATION
-***************/
-
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
-  color: #ccc;
-  padding: 15px 10px;
-}
-
-
-
-/***************
-FOOTER
-***************/
-
-footer {
+.footer {
   font-size: 0.75em;
   text-align: center;
   clear: both;
-  padding-top: 50px;
+  position: center absolute;
   color: #ccc;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-}
-
-/***************
-PAGE PORTFOLIO
-***************/
-
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
-}
-
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7;
+.row p {
+    font-weight: 300;
 }
 
 
+.row {
+  padding-top: 3px;
 
-/***************
-PAGE: ABOUT
-***************/
+}
 
 .profile-photo {
-  display: block;
+  display: inline-flex;
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
 }
-
-/***************
-PAGE: CONTACT
-***************/
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-  }
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-  background-image: url('../img/phone.png')
-}
-
-.contact-info li.mail a {
-  background-image: url('../img/mail.png')
-}
-
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png')
-}
-/***************
-COLORS
-***************/
 
 /* Site Body */
 body {
@@ -200,27 +64,11 @@ header {
   border-color: #599a68;
 }
 
-/* nav background on mobile */
-nav {
-  background: #599a68;
-}
-
 /* logo text */
 h1, h2 {
   color: #fff;
 }
 
-/* links */
-a {
- color: #222;
-}
-
-/* nav link */
-nav a, nav a:visited {
-  color: #eee;
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f;
+.golf {
+  text-align: center;
 }

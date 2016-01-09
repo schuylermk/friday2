@@ -1,0 +1,29 @@
+#subhead {
+  text-align: center;
+  margin: 0 20px;
+}
+
+/*#nz-images {
+  background-color: transparent;
+}*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+h3 {
+  text-align: center;
+
+}
+
+.row {
+  border: 1px 0px solid #aaa;
+  margin: 15px;
+}
+
+#nz-images {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#trash {
+  content:"\e020";
+}
